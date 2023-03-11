@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+
+.trending{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative; */
+    
+}
+
+
