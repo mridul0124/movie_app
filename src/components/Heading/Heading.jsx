@@ -4,7 +4,7 @@ import './Heading.css'
 function Heading() {
   return (
    
-        <span className='heading'>🎬Entertainment Hub🎥</span>
+        <span onClick={()=> window.scroll(0,0)} className='heading'>🎬Entertainment Hub🎥</span>
     
   )
 }
