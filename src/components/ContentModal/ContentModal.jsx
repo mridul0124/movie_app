@@ -99,11 +99,12 @@ export default function ContentModal({children, media_type, id}) {
                   className="ContentModal__landscape"
                 />
                 <div className="ContentModal__about">
-                    <span className="Contentmodal__title">
+                    <span className="ContentModal__title">
                         {content.name || content.title}
                         (
                             {(
-                                content.first_air_data || content.release_data || "-----"
+                                content.first_air_date || content.release_date || "-----"
+                               
                             ).substring(0,4)}
                         )
                     </span>
